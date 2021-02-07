@@ -1,0 +1,54 @@
+body {
+    background-color: #001053;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.start {
+    background-color:aliceblue;
+}
+
+.add-top {
+    margin: 2rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.sticky {
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+.sizing-down {
+    margin: 10%;
+    margin-top: auto;
+}
+
+.choices {
+    width: 50%;
+}
+
+.choices a {
+    margin-bottom: 0.5rem;
+    background-color: whitesmoke;
+    color:unset;
+}
